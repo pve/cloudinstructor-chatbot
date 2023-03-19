@@ -1,1 +1,10 @@
 following https://jman4190.medium.com/how-to-build-a-gpt-3-chatbot-with-python-7b83e55805e6
+
+with gradio
+https://medium.datadriveninvestor.com/build-your-own-chatbot-using-chatgpt-for-inspiration-2a2ae6ebb288
+
+gradio demos: https://gradio.app/demos/ also on Colab.
+
+
+python -m venv venv
+source venv/bin/activate
