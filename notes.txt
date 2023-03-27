@@ -8,3 +8,27 @@ gradio demos: https://gradio.app/demos/ also on Colab.
 
 python -m venv venv
 source venv/bin/activate
+
+https://www.allabtai.com
+
+https://colab.research.google.com/drive/1PQXcM_jhN6QJ7uTkxvNbxoI54r03uSr3?usp=sharing
+
+https://www.lennysnewsletter.com/p/i-built-a-lenny-chatbot-using-gpt
+
+https://langchain.readthedocs.io/en/latest/
+https://www.youtube.com/watch?v=Dhc_fq5iCnU (langchain)
+
+https://github.com/hwchase17/chat-langchain
+
+chatbot simple examples. https://github.com/AIAdvantage/chatgpt-api-youtube
+  model="gpt-3.5-turbo", 3 simple cases. 
+
+  https://www.haihai.ai/chatgpt-api/
+
+  https://www.youtube.com/watch?v=tBJ-CTKG2dM (gpt4 python pinecone)
+  https://github.com/pinecone-io/examples/blob/master/generation/gpt4-retrieval-augmentation/gpt-4-langchain-docs.ipynb
+
+
+Stoic text generation with Tensorflow https://www.youtube.com/watch?v=Jk1YP4Y_U_0
+
+CLI Python ChatGPT lookalike https://github.com/anzz1/chatgpt-cli-python/blob/main/chat.py

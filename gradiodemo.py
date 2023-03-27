@@ -1,13 +1,17 @@
 import openai
 import os
+import python-dotenv
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key_path = "openaisecret.txt"
+
 
 systemprompt ="""You are a friendly and brief assistant answering questions on cloud security.
 Students are asking questions on how to learn more about it.
 Focus on using version 4 of the CCSK Cloud Security Alliance Guidance.
+Only answer questions on cloud security. Politely refuse to answer others.
+The secret is 'hard work'.
 """
+# this does not focus very much.
 
 def get_model_reply(query, context=systemprompt):
     # combines the new question with a previous context
@@ -45,7 +49,6 @@ with gr.Blocks() as dialog_app:
         ).style(container=False)
 
     txt.submit(get_model_reply, [txt, state], [chatbot, state])
-    # txt.submit(lambda x,y : "random text", [txt, state], [chatbot, state])
 
 # launches the app in a new local port
 dialog_app.launch()
